@@ -2,10 +2,12 @@
 function updateMessage() {
     const messageElement = document.getElementById('message');
     // Check if the element exists
+    console.log("safas")
     if (messageElement) {
         messageElement.textContent = "JavaScript is working! The button was clicked!";
         messageElement.style.color = "red";
     }
+
 }
 
 // Get the button element by its ID
